@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>786781678585-hg1n1c8ptb5vjt11qbvnk0hbta66ken6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.786781678585-hg1n1c8ptb5vjt11qbvnk0hbta66ken6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBz52DmjmxFQuoU6nG9jFFXxWY2OPc4pPw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>786781678585</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Astonish.PhotoUploader</string>
+	<key>PROJECT_ID</key>
+	<string>photouploader-6e48c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>photouploader-6e48c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:786781678585:ios:193890e3649c382e8deb28</string>
+	<key>DATABASE_URL</key>
+	<string>https://photouploader-6e48c.firebaseio.com</string>
+</dict>
+</plist>
