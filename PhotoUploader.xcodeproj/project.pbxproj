@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BBC016AA717C31F466F43CC /* Pods_PhotoUploader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30511A2A10E963B1AD76004A /* Pods_PhotoUploader.framework */; };
 		4B1D2226255CA9A6000AF787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D2225255CA9A6000AF787 /* AppDelegate.swift */; };
 		4B1D2228255CA9A6000AF787 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D2227255CA9A6000AF787 /* SceneDelegate.swift */; };
 		4B1D222A255CA9A6000AF787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D2229255CA9A6000AF787 /* ViewController.swift */; };
 		4B1D222D255CA9A6000AF787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D222B255CA9A6000AF787 /* Main.storyboard */; };
 		4B1D222F255CA9A7000AF787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D222E255CA9A7000AF787 /* Assets.xcassets */; };
 		4B1D2232255CA9A7000AF787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1D2230255CA9A7000AF787 /* LaunchScreen.storyboard */; };
+		4BE2852B255CAB8C006A0074 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BE2852A255CAB8C006A0074 /* GoogleService-Info.plist */; };
+		4BE2853C255CAC1E006A0074 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2853B255CAC1E006A0074 /* Notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30511A2A10E963B1AD76004A /* Pods_PhotoUploader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoUploader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1D2222255CA9A6000AF787 /* PhotoUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1D2225255CA9A6000AF787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B1D2227255CA9A6000AF787 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		4B1D222E255CA9A7000AF787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B1D2231255CA9A7000AF787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B1D2233255CA9A7000AF787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE2852A255CAB8C006A0074 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4BE2853B255CAC1E006A0074 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		B4D11CE04471B5C3CCB93082 /* Pods-PhotoUploader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoUploader.release.xcconfig"; path = "Target Support Files/Pods-PhotoUploader/Pods-PhotoUploader.release.xcconfig"; sourceTree = "<group>"; };
+		F01D0731F2CB277548D75473 /* Pods-PhotoUploader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoUploader.debug.xcconfig"; path = "Target Support Files/Pods-PhotoUploader/Pods-PhotoUploader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBC016AA717C31F466F43CC /* Pods_PhotoUploader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0605E3E97A5F3CF49E629C58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F01D0731F2CB277548D75473 /* Pods-PhotoUploader.debug.xcconfig */,
+				B4D11CE04471B5C3CCB93082 /* Pods-PhotoUploader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3A58E80799C7A9EDC2AA0B06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30511A2A10E963B1AD76004A /* Pods_PhotoUploader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4B1D2219255CA9A6000AF787 = {
 			isa = PBXGroup;
 			children = (
 				4B1D2224255CA9A6000AF787 /* PhotoUploader */,
 				4B1D2223255CA9A6000AF787 /* Products */,
+				0605E3E97A5F3CF49E629C58 /* Pods */,
+				3A58E80799C7A9EDC2AA0B06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +84,7 @@
 		4B1D2224255CA9A6000AF787 /* PhotoUploader */ = {
 			isa = PBXGroup;
 			children = (
+				4BE2852A255CAB8C006A0074 /* GoogleService-Info.plist */,
 				4B1D2225255CA9A6000AF787 /* AppDelegate.swift */,
 				4B1D2227255CA9A6000AF787 /* SceneDelegate.swift */,
 				4B1D2229255CA9A6000AF787 /* ViewController.swift */,
@@ -63,6 +92,7 @@
 				4B1D222E255CA9A7000AF787 /* Assets.xcassets */,
 				4B1D2230255CA9A7000AF787 /* LaunchScreen.storyboard */,
 				4B1D2233255CA9A7000AF787 /* Info.plist */,
+				4BE2853B255CAC1E006A0074 /* Notes.swift */,
 			);
 			path = PhotoUploader;
 			sourceTree = "<group>";
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B1D2236255CA9A7000AF787 /* Build configuration list for PBXNativeTarget "PhotoUploader" */;
 			buildPhases = (
+				7DC680111C5CB9EDD7340147 /* [CP] Check Pods Manifest.lock */,
 				4B1D221E255CA9A6000AF787 /* Sources */,
 				4B1D221F255CA9A6000AF787 /* Frameworks */,
 				4B1D2220255CA9A6000AF787 /* Resources */,
+				B6D33F40862372669519D3E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +157,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B1D2232255CA9A7000AF787 /* LaunchScreen.storyboard in Resources */,
+				4BE2852B255CAB8C006A0074 /* GoogleService-Info.plist in Resources */,
 				4B1D222F255CA9A7000AF787 /* Assets.xcassets in Resources */,
 				4B1D222D255CA9A6000AF787 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DC680111C5CB9EDD7340147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoUploader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D33F40862372669519D3E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoUploader/Pods-PhotoUploader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoUploader/Pods-PhotoUploader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoUploader/Pods-PhotoUploader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B1D221E255CA9A6000AF787 /* Sources */ = {
@@ -140,6 +215,7 @@
 				4B1D222A255CA9A6000AF787 /* ViewController.swift in Sources */,
 				4B1D2226255CA9A6000AF787 /* AppDelegate.swift in Sources */,
 				4B1D2228255CA9A6000AF787 /* SceneDelegate.swift in Sources */,
+				4BE2853C255CAC1E006A0074 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +359,7 @@
 		};
 		4B1D2237255CA9A7000AF787 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01D0731F2CB277548D75473 /* Pods-PhotoUploader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +379,7 @@
 		};
 		4B1D2238255CA9A7000AF787 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D11CE04471B5C3CCB93082 /* Pods-PhotoUploader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
